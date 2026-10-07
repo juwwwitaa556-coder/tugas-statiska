@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double lambda = 1.0;
+    int x = 2;
+
+    double peluang = (exp(-lambda) * pow(lambda, x)) / tgamma(x + 1);
+
+    cout << "Peluang mengunjungi lokasi tepat 2 kali = "
+         << peluang << endl;
+
+    return 0;
+}
+
+Output
+
+Peluang mengunjungi lokasi tepat 2 kali = 0.18394
+
+jawaban nomer 10	
+0,18394	
